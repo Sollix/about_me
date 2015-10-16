@@ -1,0 +1,20 @@
+body {
+	background: url("../images/skyline.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-style: arial;
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+p {
+	float: left;
+}
