@@ -3,6 +3,7 @@ html,body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	position: relative;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 	text-align: center;
 	margin: auto;
 }
+
 
 li {
 	list-style: none;
@@ -39,4 +41,9 @@ p {
 a{
 	text-decoration: none;
 	color: #d4dcea;
+}
+footer { 
+	position: absolute;
+	bottom: 0;
+	border: 1px solid yellow;
 }
