@@ -4,6 +4,7 @@ html,body {
 	margin: 0;
 	padding: 0;
 	position: relative;
+	overflow: hidden;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 li {
 	list-style: none;
 	display: inline;
-	padding: 10px;
+	padding-right: 20px;
 }
 
 .content {
@@ -45,5 +46,5 @@ a{
 footer { 
 	position: absolute;
 	bottom: 0;
-	border: 1px solid yellow;
+	width: 100%;
 }
