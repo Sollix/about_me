@@ -3,18 +3,30 @@ body {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	text-align: center;
-	color: white;
+	color: #d4dcea;
 	font-family: sans-serif;
-	font-style: arial;
+	font-variant: arial;
+	text-align: center;
+	margin: auto;
 }
 
-nav li {
+li {
 	list-style: none;
 	display: inline;
 	padding: 10px;
 }
 
-p {
-	float: left;
+.content {
+	display: inline;
+	position: center;
+	padding: 100px 100px;
 }
+
+p {
+	max-width: 600px;
+	float: left;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/*test change kdlfkjsdlkfj */
