@@ -1,16 +1,3 @@
-@media all and max-width (768px){
-
-	p {
-		padding-bottom: 100px;
-		margin: auto;
-		float: none;
-	}
-
-	.content {
-		display: block;
-	}
-}
-
 html,body {
 	width: 100%; 
 	height: 100%;
@@ -47,9 +34,8 @@ li {
 	padding-right: 20px;
 }
 
-.content {
+div.content {
 	display: inline;
-	position: center;
 	padding-left: 100px;
 	padding-right: 100px;
 	overflow: scroll;
@@ -80,4 +66,12 @@ img {
 	border-radius: 50%;
 	position: relative;
 	border: 2px solid black;
+}
+
+@media all and (max-width: 768px){
+
+	p {
+		color: black;
+	}
+
 }
