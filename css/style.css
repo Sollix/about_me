@@ -4,7 +4,7 @@ html,body {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	overflow: scroll; /*gets rid of unwanted white space due to overflow*/
+	overflow: scroll; /*gets rid of unwanted white space due to overflow, now set to scroll*/
 }
 
 body {
