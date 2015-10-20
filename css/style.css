@@ -4,7 +4,7 @@ html,body {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	overflow: hidden; /*gets rid of unwanted white space due to overflow*/
+	overflow: scroll; /*gets rid of unwanted white space due to overflow*/
 }
 
 body {
@@ -39,6 +39,7 @@ li {
 	position: center;
 	padding-left: 100px;
 	padding-right: 100px;
+	overflow: scroll;
 }
 
 p {
@@ -56,9 +57,10 @@ a{
 }
 
 footer { 
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
+	background-color: black;
 }
 
 img {
